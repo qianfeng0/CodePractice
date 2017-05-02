@@ -4,5 +4,5 @@
     "clang.cxxflags": ["-std=c++11"],
     "C_Cpp.autocomplete": "Disabled",
     "clang.completion.enable": true,
-    "clang.diagnostic.enable": true,
+    "clang.diagnostic.enable": true
 }
