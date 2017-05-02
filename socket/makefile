@@ -22,4 +22,4 @@ daytimetcpcli.out: 	daytimetcpcli.o error.o
 	$(CXX) $(CXXFLAGS) -c -o $(OBJDIR)/$@ $<
 
 clean:
-		rm -f ./$(BINDIR)/${PROGS} ./$BINDIR/${LIBS}
+		rm -f ./$(BINDIR)/* ./$(OBJDIR)/*
