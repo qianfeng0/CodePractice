@@ -5,7 +5,7 @@
             "name": "C++ Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/POJ/bin/POJ1753_FlipGame.out",
+            "program": "${workspaceRoot}/LeetCode/bin/328_OddEvenLinkedList.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
