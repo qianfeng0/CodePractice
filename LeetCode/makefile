@@ -5,7 +5,7 @@ CXXFLAGS = -Wall -g -std=c++11
 
 BINDIR = ./bin
 PROGS = 1_TwoSum.out 2_AddTwoNumbers.out 445_AddTwoNumberII.out \
-		328_OddEvenLinkedList.out
+		328_OddEvenLinkedList.out 237_DeleteNodeInList.out
 
 all: 	$(PROGS)
 
@@ -20,6 +20,9 @@ all: 	$(PROGS)
 
 328_OddEvenLinkedList.out:
 	$(CXX) $(CXXFLAGS) -o $(BINDIR)/$@ 328_OddEvenLinkedList.cpp
+
+237_DeleteNodeInList.out:
+	$(CXX) $(CXXFLAGS) -o $(BINDIR)/$@ 237_DeleteNodeInList.cpp
 
 clean:
 	rm -f ./$(BINDIR)/*
