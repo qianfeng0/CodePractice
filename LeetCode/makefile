@@ -6,7 +6,8 @@ CXXFLAGS = -Wall -g -std=c++11
 BINDIR = ./bin
 PROGS = 1_TwoSum.out 2_AddTwoNumbers.out 445_AddTwoNumberII.out \
 		328_OddEvenLinkedList.out 237_DeleteNodeInList.out \
-		7_ReverseInteger.out 9_PalindromeNumber.out
+		7_ReverseInteger.out 9_PalindromeNumber.out 3_LongestSubstring.out
+
 
 all: 	$(PROGS)
 
@@ -22,6 +23,7 @@ all: 	$(PROGS)
 328_OddEvenLinkedList.out:
 	$(CXX) $(CXXFLAGS) -o $(BINDIR)/$@ 328_OddEvenLinkedList.cpp
 
+
 237_DeleteNodeInList.out:
 	$(CXX) $(CXXFLAGS) -o $(BINDIR)/$@ 237_DeleteNodeInList.cpp
 
@@ -30,6 +32,10 @@ all: 	$(PROGS)
 
 9_PalindromeNumber.out:
 	$(CXX) $(CXXFLAGS) -o $(BINDIR)/$@ 9_PalindromeNumber.cpp
+
+3_LongestSubstring.out:
+	$(CXX) $(CXXFLAGS) -o $(BINDIR)/$@ 3_LongestSubstring.cpp
+
 
 clean:
 	rm -f ./$(BINDIR)/*

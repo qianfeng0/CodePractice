@@ -32,12 +32,19 @@ public:
 
         l1 = l1->next;
         l2 = l2->next;
-        while(l1 != NULL && l2 != NULL)
+        while(l1 != NULL || l2 != NULL)
         {
-            cur->next = new ListNode(l1->val + l2->val);
+            int sum = 0;
+            if(l1 != NULL){
+                sum += l1->val;
+                l1 = l1->next;
+            }
+            if(l2 != NULL){
+                sum += l2->val;
+                l2 = l2->next;
+            }
+            cur->next = new ListNode(sum);
             cur = cur->next;
-            l1 = l1->next;
-            l2 = l2->next;
         }
 
         cur = list;
