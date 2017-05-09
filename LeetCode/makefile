@@ -7,7 +7,8 @@ BINDIR = ./bin
 PROGS = 1_TwoSum.out 2_AddTwoNumbers.out 445_AddTwoNumberII.out \
 		328_OddEvenLinkedList.out 237_DeleteNodeInList.out \
 		7_ReverseInteger.out 9_PalindromeNumber.out 3_LongestSubstring.out \
-		14_LongestCommonPrefix.out 20_ValidParentheses.out
+		14_LongestCommonPrefix.out 20_ValidParentheses.out \
+		21_MergeTwoSortedLists.out 26_RemoveDuplicatesfromSortedArray.out
 
 all: 	$(PROGS)
 
@@ -42,6 +43,11 @@ all: 	$(PROGS)
 20_ValidParentheses.out:
 	$(CXX) $(CXXFLAGS) -o $(BINDIR)/$@ 20_ValidParentheses.cpp
 
+21_MergeTwoSortedLists.out:
+	$(CXX) $(CXXFLAGS) -o $(BINDIR)/$@ 21_MergeTwoSortedLists.cpp
+
+26_RemoveDuplicatesfromSortedArray.out:
+	$(CXX) $(CXXFLAGS) -o $(BINDIR)/$@ 26_RemoveDuplicatesfromSortedArray.cpp
 
 clean:
 	rm -f ./$(BINDIR)/*

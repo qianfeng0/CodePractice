@@ -5,7 +5,7 @@
             "name": "C++ Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/LeetCode/bin/9_PalindromeNumber.out",
+            "program": "${workspaceRoot}/LeetCode/bin/21_MergeTwoSortedLists.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
