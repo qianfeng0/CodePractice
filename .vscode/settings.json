@@ -4,5 +4,10 @@
     "clang.cxxflags": ["-std=c++11"],
     "C_Cpp.autocomplete": "Disabled",
     "clang.completion.enable": true,
-    "clang.diagnostic.enable": true
+    "clang.diagnostic.enable": true,
+    "files.associations": {
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp"
+    }
 }
