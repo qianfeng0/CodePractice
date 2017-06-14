@@ -40,7 +40,7 @@ public:
     }
 };
 
-int mian()
+int main()
 {
     return 0;
 }
