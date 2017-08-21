@@ -33,6 +33,9 @@
         "tuple": "cpp",
         "type_traits": "cpp",
         "typeinfo": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "string": "cpp",
+        "stack": "cpp",
+        "algorithm": "cpp"
     }
 }

@@ -5,7 +5,7 @@
             "name": "C++ Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/LeetCode/bin/350_IntersectionofTwoArraysII.out",
+            "program": "${workspaceRoot}/LeetCode/bin/11_ContainerWithMostWater.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",

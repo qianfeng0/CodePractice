@@ -5,7 +5,7 @@
             "name": "C++ Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/bin/350_IntersectionofTwoArraysII.out",
+            "program": "${workspaceRoot}/bin/4_MedianofTwoSortedArrays.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
